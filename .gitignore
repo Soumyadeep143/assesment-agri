@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+.dist/
+frontend/dist/
+
+# Logs / OS / misc
+.logs/
+.devlog.txt
+.DS_Store
+*.log
+.env

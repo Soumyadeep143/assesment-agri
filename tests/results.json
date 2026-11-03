@@ -1,0 +1,2137 @@
+[
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_valid_nbformat",
+  "doc": "Notebook validates against nbformat 4 schema",
+  "outcome": "passed",
+  "duration": 0.0049,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_is_ipynb_python3_kernel",
+  "doc": "Kernel spec is Python 3",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_all_code_cells_executed",
+  "doc": "Every code cell has an execution count (outputs are saved in the file)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_no_error_outputs_saved",
+  "doc": "No cell holds an error output",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_fresh_run_completes",
+  "doc": "A fresh top-to-bottom execution of all cells succeeds (fixture raised nothing)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_has_charts",
+  "doc": "At least 8 embedded charts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[1]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[2]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[3]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[4]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[5]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[6]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[7]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[8]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[9]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_numbered_sections_present[10]",
+  "doc": "Sections 1..10 exist (one per business-case question + forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_conclusion_present",
+  "doc": "Conclusion & limitations section exists",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_header_has_contact_fields",
+  "doc": "Header carries Name / Phone / Email fields (brief: contact details mandatory)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_contact_placeholders_flagged_for_user",
+  "doc": "MANUAL ITEM: placeholders still present \u2013 user must fill name/phone/email before submitting",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_notebook_size_under_limit",
+  "doc": "File small enough for e-mail / WhatsApp (<10 MB)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_deliverable_files_exist[price_forecast.ipynb]",
+  "doc": "Deliverable files exist in the project folder",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_deliverable_files_exist[price_data.csv]",
+  "doc": "Deliverable files exist in the project folder",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_deliverable_files_exist[forecast_next_12_months.csv]",
+  "doc": "Deliverable files exist in the project folder",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_deliverable_files_exist[price_model.joblib]",
+  "doc": "Deliverable files exist in the project folder",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNotebookStructure::test_deliverable_files_exist[price_model.json]",
+  "doc": "Deliverable files exist in the project folder",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R01 clean: missing values]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R02 clean: outliers]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R03 clean: anomalies]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R04 describe model in detail]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R05 explain reasons for selecting model]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R06 evaluation metrics]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R07 training AND predictive performance]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R08 fine-tuning]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R09 interpret results]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R10 company actions to price changes]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R11 how to know actions effective]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R12 deploy with Django]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R13 Django + FastAPI real-time]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R14 integrate APIs into Next.js]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R15 integrate APIs into React Native]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R16 monitor: performance]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R17 monitor: drift]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_requirement_covered[R18 monitor: update model]",
+  "doc": "Section text contains the evidence keywords for this requirement",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_forecast_horizon_12_months",
+  "doc": "'next 12 months': forecast horizon is exactly 12 and starts the month after the last data point",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_average_monthly_price_target",
+  "doc": "Target variable is avg_monthly_price",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_uses_only_provided_dataset",
+  "doc": "'use only the mentioned dataset': the only data file read is price_data.csv; no web/API data",
+  "outcome": "passed",
+  "duration": 0.001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_no_exogenous_data_used",
+  "doc": "Model inputs are the price series only (univariate) \u2013 consistent with dataset",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_any_method_allowed_multiple_families",
+  "doc": "'any suitable ML/DL/statistical method': statistical (ETS/ARIMA) and ML (GBM) families compared",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_trained_on_history_evaluated_on_future",
+  "doc": "Rolling-origin CV never trains on the data it is evaluated on (future months only)",
+  "outcome": "passed",
+  "duration": 0.0011,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_dl_decision_documented",
+  "doc": "Deep learning consciously considered and excluded with a reason",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestRequirementAlignment::test_data_dictionary_fields_respected",
+  "doc": "Fields 'date' (ISO YYYY-MM-DD) and 'avg_monthly_price' as per dictionary",
+  "outcome": "passed",
+  "duration": 0.0017,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_clean_series_feeds_model",
+  "doc": "Final model's level equals the last cleaned log price (alpha=1)",
+  "outcome": "passed",
+  "duration": 0.0012,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_forecast_uses_artifact_level",
+  "doc": "Artifact level_log == final fitted level",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_forecast_to_api_equivalence",
+  "doc": "Forecast table == predict() served from the saved artifact",
+  "outcome": "passed",
+  "duration": 0.0026,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_cv_store_reproducible",
+  "doc": "Recomputing one CV fold reproduces the stored forecast exactly",
+  "outcome": "passed",
+  "duration": 0.0179,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_cv_to_intervals_flow",
+  "doc": "Interval quantiles are computed from the same CV forecasts that were scored",
+  "outcome": "passed",
+  "duration": 0.0018,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_cv_mape_matches_summary_narrative_value",
+  "doc": "Headline CV MAPE used in the narrative equals the computed table",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_fresh_run_matches_saved_forecast",
+  "doc": "Determinism: fresh execution reproduces the forecast CSV shipped in the project",
+  "outcome": "passed",
+  "duration": 0.0041,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_fresh_run_matches_saved_artifact",
+  "doc": "Determinism: fresh artifact == shipped artifact (same version, alpha, level, quantiles)",
+  "outcome": "passed",
+  "duration": 0.0015,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_saved_outputs_match_fresh_run",
+  "doc": "The outputs stored inside the notebook mention the same CV MAPE as the fresh run",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_cleaning_then_cv_no_nan_propagation",
+  "doc": "No NaN anywhere in CV results",
+  "outcome": "passed",
+  "duration": 0.0017,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_cleaning_does_not_leak_future",
+  "doc": "Cleaning (neighbour-based) is applied once to history; CV metrics are scored against cleaned data, and robustness check vs RAW actuals stays within 1pp",
+  "outcome": "passed",
+  "duration": 0.2187,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_ensemble_is_mean_of_members",
+  "doc": "Ensemble forecast equals the average of SES, ARIMA, GBM",
+  "outcome": "passed",
+  "duration": 1.232,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_tuned_params_flow_into_models",
+  "doc": "Selected ARIMA order from grid is the one used in the tuned model (fits without error on full data)",
+  "outcome": "passed",
+  "duration": 0.8117,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_monitoring_uses_same_model_family",
+  "doc": "Monitoring walk-forward 1-step SES errors are consistent with CV 1-step scale (<30% MAPE-rolling median)",
+  "outcome": "passed",
+  "duration": 0.0009,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_drift_flag_consistent_with_volatility_scaling",
+  "doc": "Drift detector (PSI>0.25) and stress-band scaler (>1) agree that recent regime is more volatile",
+  "outcome": "passed",
+  "duration": 0.0023,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_stress_band_contains_realised_recent_changes",
+  "doc": "Stress 80% band at h=12 would have covered the actual 12-month change from the last 8 origins at least 5/8 times",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestPipelineIntegration::test_end_to_end_runtime_reasonable",
+  "doc": "Full notebook executes in under 15 minutes",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_cv_mape_text",
+  "doc": "Narrative '14.8%' equals computed CV MAPE",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_recent_origin_mape_text",
+  "doc": "Narrative 'MAPE 21.4%' for last 8 origins equals computed",
+  "outcome": "passed",
+  "duration": 0.0062,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_holdout_mape_text",
+  "doc": "Narrative hold-out 9.1% / train 4.7% equals computed",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_central_forecast_text",
+  "doc": "Narrative central forecast 15,800 -> 15,950 equals computed (rounded to 50)",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_interval_text",
+  "doc": "Narrative 80% band 12,650\u201322,400 equals computed (rounded to 50)",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_stress_text",
+  "doc": "Narrative stress band 10,700\u201329,500 equals computed (rounded to 100)",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_probability_text",
+  "doc": "Narrative 41% / 31% / 27\u201329% equals computed",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_alpha_text",
+  "doc": "Narrative '\u03b1 = 1.000' equals computed alpha",
+  "outcome": "passed",
+  "duration": 0.0012,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_origin_count_text",
+  "doc": "Narrative '20 origins, 240 forecasts' equals computed",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_spike_count_text",
+  "doc": "Narrative-independent: spike count in saved output = computed (5)",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_psi_text",
+  "doc": "Narrative 'PSI \u2248 1.2' equals computed",
+  "outcome": "passed",
+  "duration": 0.0014,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_vol_text",
+  "doc": "Narrative volatility ~1.8x equals computed",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestNarrativeConsistency::test_replay_text",
+  "doc": "Narrative data-quality caveat (Jun-2021 = Oct-2007 = 5,070) is true",
+  "outcome": "passed",
+  "duration": 0.0022,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_python_blocks_exist",
+  "doc": "At least 4 Python snippets documented (Django service, DRF view, FastAPI service, Django client)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_all_python_blocks_parse",
+  "doc": "Every Python snippet is syntactically valid",
+  "outcome": "passed",
+  "duration": 0.0028,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_tsx_blocks_exist",
+  "doc": "At least 3 TSX snippets (Next.js x2, React Native)",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_tsx_brackets_balanced",
+  "doc": "Brackets/braces/parens balanced in every TSX snippet",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_nextjs_uses_server_token",
+  "doc": "Next.js snippet keeps the token on the server (cookies())",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_rn_uses_secure_store",
+  "doc": "React Native snippet stores tokens in SecureStore, not AsyncStorage",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_django_service_logic",
+  "doc": "Django services.predict() (stubbed settings) returns the same numbers as the notebook",
+  "outcome": "passed",
+  "duration": 0.003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_django_view_validates_horizon",
+  "doc": "DRF view constrains horizon to 1..24",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestDeploymentSnippets::test_django_client_has_timeout_and_cache",
+  "doc": "Django->FastAPI client sets a timeout and caches",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_health",
+  "doc": "GET /health -> 200 and model version",
+  "outcome": "passed",
+  "duration": 0.0177,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_requires_key",
+  "doc": "No API key -> 422/401 (rejected)",
+  "outcome": "passed",
+  "duration": 0.0221,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_wrong_key",
+  "doc": "Wrong API key -> 401",
+  "outcome": "passed",
+  "duration": 0.0187,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_default_12",
+  "doc": "Default horizon returns 12 points",
+  "outcome": "passed",
+  "duration": 0.0188,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_horizon_param[1]",
+  "doc": "horizon query parameter respected",
+  "outcome": "passed",
+  "duration": 0.0302,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_horizon_param[6]",
+  "doc": "horizon query parameter respected",
+  "outcome": "passed",
+  "duration": 0.0263,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_horizon_param[24]",
+  "doc": "horizon query parameter respected",
+  "outcome": "passed",
+  "duration": 0.0274,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_horizon_validation[0]",
+  "doc": "Out-of-range horizon -> 422",
+  "outcome": "passed",
+  "duration": 0.0222,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_horizon_validation[25]",
+  "doc": "Out-of-range horizon -> 422",
+  "outcome": "passed",
+  "duration": 0.0194,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_horizon_validation[-3]",
+  "doc": "Out-of-range horizon -> 422",
+  "outcome": "passed",
+  "duration": 0.0215,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_forecast_non_numeric_horizon",
+  "doc": "Non-numeric horizon -> 422",
+  "outcome": "passed",
+  "duration": 0.019,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_api_matches_notebook",
+  "doc": "API numbers equal the notebook's forecast table",
+  "outcome": "passed",
+  "duration": 0.0155,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_api_schema_fields",
+  "doc": "Response items carry month/forecast/lo_80/hi_80",
+  "outcome": "passed",
+  "duration": 0.022,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_api_band_ordering",
+  "doc": "lo_80 < forecast < hi_80 in every API point",
+  "outcome": "passed",
+  "duration": 0.0365,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_openapi_exposed",
+  "doc": "OpenAPI schema is published (used to generate typed TS clients)",
+  "outcome": "passed",
+  "duration": 0.0398,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_reload_endpoint_auth",
+  "doc": "/admin/reload requires the key",
+  "outcome": "passed",
+  "duration": 0.0226,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_reload_endpoint_works",
+  "doc": "/admin/reload reloads the model artifact",
+  "outcome": "passed",
+  "duration": 0.017,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_hot_swap_new_model_version",
+  "doc": "Champion/challenger: replacing the artifact + /admin/reload serves the new version without restart",
+  "outcome": "passed",
+  "duration": 0.0547,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestFastAPIService::test_rollback_restores_version",
+  "doc": "Rollback path: reloading the original artifact restores the previous version",
+  "outcome": "passed",
+  "duration": 0.0224,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_alert_rule_fires_on_regime_change",
+  "doc": "Rolling-MAPE alert fires at least once on this regime-switching history",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_monitor_alert_needs_baseline",
+  "doc": "Alert threshold = 1.3 x baseline MAPE (rule is explicit in the code)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_drift_triggers_retrain_policy_documented",
+  "doc": "Section 10 links drift/performance alerts to retraining + rollback",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_actions_table_covers_three_situations",
+  "doc": "Section 5 covers rising, falling and flat/high-uncertainty forecasts",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_effectiveness_has_counterfactual_and_stats",
+  "doc": "Section 6 includes control group, DiD, bootstrap/CI and cost netting",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_actions_reference_uncertainty_band",
+  "doc": "Business actions are tied to the forecast bands (not a point forecast)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_deploy_mentions_versioning_and_tests",
+  "doc": "Section 7 covers model versioning, CI/CD and a model-regression test",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_integration_mentions_resilience",
+  "doc": "Section 8 covers timeouts, circuit breaker and fallback",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_integration.py::TestMonitoringAndBusinessLoop::test_frontend_mentions_auth_cors_offline",
+  "doc": "Section 9 covers JWT, CORS and offline caching",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_raw_shape",
+  "doc": "Raw file has 249 rows x 2 columns",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_column_names",
+  "doc": "Columns are exactly the data-dictionary fields: date, avg_monthly_price",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_date_parsed_as_datetime",
+  "doc": "'date' parsed to datetime64",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_price_numeric",
+  "doc": "'avg_monthly_price' is numeric",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_dates_sorted",
+  "doc": "Dates are strictly increasing",
+  "outcome": "passed",
+  "duration": 0.0007,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_month_start_format",
+  "doc": "All dates are day-1 (ISO YYYY-MM-01) as the data dictionary states",
+  "outcome": "passed",
+  "duration": 0.0009,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_first_and_last_dates",
+  "doc": "Range is Jan-2005 .. Sep-2025",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_first_and_last_prices",
+  "doc": "First/last prices match the source file (5500 / 15750)",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_min_max_prices",
+  "doc": "Min 3500, max 16163",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_no_missing_values",
+  "doc": "No nulls in the raw file",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_prices_positive",
+  "doc": "All prices are > 0 (log transform is safe)",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestDataLoading::test_matches_source_csv",
+  "doc": "Loaded values equal the CSV file byte-for-byte after parsing",
+  "outcome": "passed",
+  "duration": 0.0024,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_monthly_frequency",
+  "doc": "s_raw has a regular month-start frequency",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_no_gaps_in_calendar",
+  "doc": "No calendar month is missing",
+  "outcome": "passed",
+  "duration": 0.0033,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_gap_fill_count_zero",
+  "doc": "No gaps needed filling in this file",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_s_raw_float",
+  "doc": "s_raw is float (needed for interpolation/log)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_spike_count",
+  "doc": "Exactly 5 isolated spikes flagged",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_expected_spike_dates[2005-05-01]",
+  "doc": "Each known glitch month is flagged",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_expected_spike_dates[2006-02-01]",
+  "doc": "Each known glitch month is flagged",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_expected_spike_dates[2006-05-01]",
+  "doc": "Each known glitch month is flagged",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_expected_spike_dates[2009-07-01]",
+  "doc": "Each known glitch month is flagged",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_expected_spike_dates[2021-03-01]",
+  "doc": "Each known glitch month is flagged",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_level_shifts_not_treated_as_spikes[2013-11-01]",
+  "doc": "Persistent regime shifts are NOT flagged as spikes (must be kept)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_level_shifts_not_treated_as_spikes[2021-06-01]",
+  "doc": "Persistent regime shifts are NOT flagged as spikes (must be kept)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_level_shifts_not_treated_as_spikes[2023-12-01]",
+  "doc": "Persistent regime shifts are NOT flagged as spikes (must be kept)",
+  "outcome": "passed",
+  "duration": 0.0012,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_level_shifts_detected[2013-11-01]",
+  "doc": "Regime shifts appear in the 'shift' report",
+  "outcome": "passed",
+  "duration": 0.0012,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_level_shifts_detected[2021-06-01]",
+  "doc": "Regime shifts appear in the 'shift' report",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_level_shifts_detected[2023-12-01]",
+  "doc": "Regime shifts appear in the 'shift' report",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_only_spikes_modified",
+  "doc": "Cleaning changes only the flagged months",
+  "outcome": "passed",
+  "duration": 0.0009,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_clean_no_nan",
+  "doc": "Cleaned series has no NaN",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_clean_length_preserved",
+  "doc": "Cleaning keeps all 249 observations (nothing dropped)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_clean_within_raw_range",
+  "doc": "Interpolated values stay within the observed raw range",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_clean_positive",
+  "doc": "Cleaned prices are positive",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_replacement_between_neighbours",
+  "doc": "Each replaced value lies between its two neighbours",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_repeated_values_flagged_not_removed",
+  "doc": "9 repeated (stale) values are reported but retained",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_replay_first12_identical",
+  "doc": "Jun-2021.. block exactly equals Oct-2007.. block (12/12) \u2013 the data-quality caveat is factual",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_log_series_matches",
+  "doc": "y (modelling series) equals log(s_clean)",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_detects_injected_up_spike",
+  "doc": "Injected +60% one-month spike is detected",
+  "outcome": "passed",
+  "duration": 0.0034,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_detects_injected_down_spike",
+  "doc": "Injected -50% one-month dip is detected",
+  "outcome": "passed",
+  "duration": 0.0033,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_ignores_persistent_level_shift",
+  "doc": "A permanent +70% step is not a spike",
+  "outcome": "passed",
+  "duration": 0.0035,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_clean_series_has_no_spikes",
+  "doc": "Smooth noisy series flags (almost) nothing",
+  "outcome": "passed",
+  "duration": 0.0029,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_perfectly_smooth_series_spike_still_detected",
+  "doc": "Edge case: zero-variance series (MAD=0) must not hide a spike",
+  "outcome": "passed",
+  "duration": 0.0028,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_constant_series_no_error",
+  "doc": "Constant series: no crash, no flags",
+  "outcome": "passed",
+  "duration": 0.0026,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_endpoints_never_flagged",
+  "doc": "First/last points (missing a neighbour) are never flagged",
+  "outcome": "passed",
+  "duration": 0.0033,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_two_adjacent_high_points_not_spike",
+  "doc": "Two consecutive high months are a mini-regime, not an isolated glitch",
+  "outcome": "passed",
+  "duration": 0.0033,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_threshold_monotonic",
+  "doc": "Raising the z-threshold never flags more points",
+  "outcome": "passed",
+  "duration": 0.0072,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestCleaning::test_returns_aligned_index",
+  "doc": "Output shares the input index",
+  "outcome": "passed",
+  "duration": 0.0048,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_naive-1]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_naive-6]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_naive-12]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_naive-24]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_snaive-1]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_snaive-6]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_snaive-12]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_snaive-24]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_drift-1]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_drift-6]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_drift-12]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_drift-24]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_ses-1]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0118,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_ses-6]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0109,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_ses-12]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0107,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_ses-24]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0126,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_damped-1]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0334,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_damped-6]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0326,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_damped-12]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.032,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_output_length[f_damped-24]",
+  "doc": "Each baseline returns exactly h forecasts",
+  "outcome": "passed",
+  "duration": 0.0307,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_naive_value",
+  "doc": "Naive = last observation",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_snaive_value",
+  "doc": "Seasonal naive repeats last 12 values",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_snaive_wraps",
+  "doc": "Seasonal naive wraps for h>12",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_drift_exact_on_linear_series",
+  "doc": "Drift reproduces a perfectly linear series",
+  "outcome": "passed",
+  "duration": 0.0014,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_ses_constant_series",
+  "doc": "SES of a constant series is that constant",
+  "outcome": "passed",
+  "duration": 0.0064,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_ses_flat_forecast",
+  "doc": "SES gives a flat multi-step forecast",
+  "outcome": "passed",
+  "duration": 0.0108,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_ses_close_to_last_value",
+  "doc": "On this series SES ~ last value (random-walk behaviour)",
+  "outcome": "passed",
+  "duration": 0.0099,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_damped_finite",
+  "doc": "Damped ETS finite",
+  "outcome": "passed",
+  "duration": 0.0285,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_arima_forecast_finite",
+  "doc": "ARIMA(0,1,1) finite",
+  "outcome": "passed",
+  "duration": 0.0367,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_arima_with_drift_runs",
+  "doc": "ARIMA with drift term runs",
+  "outcome": "passed",
+  "duration": 0.1301,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_sarima_runs",
+  "doc": "Seasonal SARIMA runs and is finite",
+  "outcome": "passed",
+  "duration": 1.1364,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_gbm_length_and_finite",
+  "doc": "GBM recursive forecast is finite and h long",
+  "outcome": "passed",
+  "duration": 0.1373,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_gbm_deterministic",
+  "doc": "GBM is reproducible (fixed random_state)",
+  "outcome": "passed",
+  "duration": 0.2662,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_gbm_reasonable_range",
+  "doc": "GBM forecast stays within +-50% of last price (no explosion)",
+  "outcome": "passed",
+  "duration": 0.1458,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_forecasts_positive_after_exp",
+  "doc": "Back-transformed forecasts are positive (log model cannot go negative)",
+  "outcome": "passed",
+  "duration": 0.0402,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_functions_do_not_mutate_input",
+  "doc": "Forecast functions do not modify the training series",
+  "outcome": "passed",
+  "duration": 0.047,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecastFunctions::test_candidate_registry",
+  "doc": "11 candidate models were compared",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_perfect_forecast_zero_error",
+  "doc": "Perfect forecast -> all errors 0",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_known_mae",
+  "doc": "MAE known case = 15",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_known_rmse",
+  "doc": "RMSE known case = sqrt(250)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_known_mape",
+  "doc": "MAPE known case = 10%",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_known_smape",
+  "doc": "sMAPE known case",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_known_mase",
+  "doc": "MASE = MAE / scale",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_rmse_ge_mae",
+  "doc": "RMSE >= MAE always",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_metrics_nonnegative",
+  "doc": "All metrics non-negative",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_symmetry_of_absolute_errors",
+  "doc": "MAE same for over- and under-forecast of equal size",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_mape_asymmetric_property",
+  "doc": "MAPE penalises over-forecast less than same-size under-forecast ratio base (documented property)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_accepts_series",
+  "doc": "Works with pandas Series input",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_returns_five_keys",
+  "doc": "Returns MAE, RMSE, MAPE, sMAPE, MASE",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMetrics::test_scale_inverse_for_mase",
+  "doc": "Doubling scale halves MASE",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_origin_count",
+  "doc": "20 rolling origins",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_origin_bounds",
+  "doc": "First origin Jan-2015 (idx 120); last leaves a full 12-month test window",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_origin_spacing",
+  "doc": "Origins spaced 6 months",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_horizon_is_12",
+  "doc": "Forecast horizon constant H = 12 (brief: next 12 months)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_no_leakage_train_ends_before_test",
+  "doc": "Training window passed to the model is strictly before the test window",
+  "outcome": "passed",
+  "duration": 0.014,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_cv_frame_shape",
+  "doc": "CV result: 20 rows x 6 columns",
+  "outcome": "passed",
+  "duration": 0.0129,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_stored_forecast_length",
+  "doc": "Every stored forecast has H points",
+  "outcome": "passed",
+  "duration": 0.0127,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_failure_falls_back_to_naive",
+  "doc": "A model that raises falls back to naive instead of crashing the CV",
+  "outcome": "passed",
+  "duration": 0.026,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_cv_naive_equals_manual",
+  "doc": "CV MAE for naive equals manual calculation on fold 1",
+  "outcome": "passed",
+  "duration": 0.0022,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_cv_metrics_nonnegative",
+  "doc": "All CV fold metrics >= 0",
+  "outcome": "passed",
+  "duration": 0.0008,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_cv_has_all_candidates",
+  "doc": "CV evaluated every candidate",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_tune_test_origins_disjoint",
+  "doc": "Tuning origins and untouched test origins do not overlap",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestRollingCV::test_tuning_precedes_test",
+  "doc": "All tuning origins are earlier than the untouched test origins (no look-ahead tuning)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_summary_sorted_by_mape",
+  "doc": "Comparison table sorted ascending by MAPE",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_ses_or_naive_best_baseline",
+  "doc": "SES/Naive top the 11-model table",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_seasonal_naive_worst",
+  "doc": "Seasonal naive is worst -> no seasonality to exploit",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_sarima_not_better_than_ses",
+  "doc": "Seasonal SARIMA does not beat SES",
+  "outcome": "passed",
+  "duration": 0.003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_arima_grid_size",
+  "doc": "ARIMA grid: p,q in 0..3 x 2 trend options minus the empty model = 31",
+  "outcome": "passed",
+  "duration": 0.0011,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_arima_grid_sorted",
+  "doc": "ARIMA grid sorted by MAPE",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_best_arima_is_grid_top",
+  "doc": "Chosen ARIMA order = top of grid",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_gbm_grid_size",
+  "doc": "GBM grid: 3 x 3 x 2 = 18",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_gbm_grid_sorted",
+  "doc": "GBM grid sorted",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_tuned_models_present",
+  "doc": "Tuned model set includes naive, SES, damped, ARIMA, GBM, ensemble",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_ses_best_on_untouched_origins",
+  "doc": "On the 8 untouched origins SES (or identical Naive) beats ARIMA, GBM and the ensemble",
+  "outcome": "passed",
+  "duration": 0.0058,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_tuning_does_not_beat_naive_overall",
+  "doc": "Tuned ARIMA/GBM do not beat naive across all 20 origins (supports parsimony)",
+  "outcome": "passed",
+  "duration": 0.0089,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_by_horizon_error_grows",
+  "doc": "Forecast error increases with horizon",
+  "outcome": "passed",
+  "duration": 0.0029,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_dm_test_returns_t_and_p",
+  "doc": "Diebold-Mariano helper returns finite t and p in [0,1]",
+  "outcome": "passed",
+  "duration": 0.0028,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestSelectionTuning::test_dm_arima_worse_than_naive",
+  "doc": "DM statistic positive (worse) for ARIMA vs Naive",
+  "outcome": "passed",
+  "duration": 0.0027,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_split_date",
+  "doc": "Split at Sep-2024",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_train_test_sizes",
+  "doc": "Train 237 months, test 12 months",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_test_follows_train",
+  "doc": "Test starts right after train",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_alpha_is_one",
+  "doc": "SES alpha fitted ~1 (random walk)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_train_and_test_rows",
+  "doc": "Report has Train and Test rows",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_train_error_lower_than_test",
+  "doc": "1-step in-sample error < 12-month-ahead error (as expected)",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_test_mape_value",
+  "doc": "Hold-out MAPE ~9.1%",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_train_mape_value",
+  "doc": "Train MAPE ~4.7%",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_competitor_table_complete",
+  "doc": "Hold-out comparison includes 6 models",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_seasonal_worse_on_holdout",
+  "doc": "Seasonal SARIMA clearly worse than SES on hold-out",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_nonseasonal_models_within_noise",
+  "doc": "Non-seasonal models within 5% of each other on hold-out",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_residual_ljung_box_white",
+  "doc": "Residuals show no autocorrelation (Ljung-Box p>0.05 at lags 6,12,24)",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_residuals_fat_tailed",
+  "doc": "Residual excess kurtosis is large -> justifies empirical intervals",
+  "outcome": "passed",
+  "duration": 0.0014,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestHoldout::test_cleaning_robustness",
+  "doc": "MAPE with/without cleaning differ by < 1pp (conclusions not sensitive)",
+  "outcome": "passed",
+  "duration": 0.4581,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_twelve_rows",
+  "doc": "Forecast has 12 rows",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_forecast_start_month",
+  "doc": "First forecast month Oct-2025",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_forecast_end_month",
+  "doc": "Last forecast month Sep-2026",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_forecast_contiguous",
+  "doc": "Forecast months contiguous",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_forecast_positive",
+  "doc": "All forecast & interval values positive",
+  "outcome": "passed",
+  "duration": 0.0009,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_forecast_within_80",
+  "doc": "lo_80 < forecast < hi_80",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_80_inside_95",
+  "doc": "80% band nested in 95% band",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_intervals_widen_with_horizon",
+  "doc": "Band width strictly increases with horizon",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_stress_wider_than_base",
+  "doc": "Stress band at least as wide as base 80%",
+  "outcome": "passed",
+  "duration": 0.0025,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_vol_ratio_bounds",
+  "doc": "Volatility scaler clipped to [1, 2]",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_vol_ratio_value",
+  "doc": "Recent volatility ~1.8x history",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_quantiles_ordered",
+  "doc": "q2.5 < q10 < q50 < q90 < q97.5",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_median_quantile_near_zero",
+  "doc": "Median standardised error ~0 (unbiased centre)",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_pooled_error_count",
+  "doc": "240 pooled standardised errors (20 origins x 12)",
+  "outcome": "passed",
+  "duration": 0.0009,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_80pct_empirical_coverage",
+  "doc": "Empirical coverage of the 80% band in CV ~ 80%",
+  "outcome": "passed",
+  "duration": 0.0028,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_central_forecast_near_last_price",
+  "doc": "Central forecast within 2% of last observed price (random-walk logic)",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_forecast_csv_written",
+  "doc": "forecast_next_12_months.csv written with 12 rows",
+  "outcome": "passed",
+  "duration": 0.0019,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_forecast_csv_matches_frame",
+  "doc": "CSV values equal in-memory forecast",
+  "outcome": "passed",
+  "duration": 0.0018,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_base_forecast_flat",
+  "doc": "SES base path is flat on log scale",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_hist_move_probabilities_sum",
+  "doc": "Rise/fall/stable probabilities sum to 100%",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestForecast::test_hist_move_value",
+  "doc": "P(rise>10% in 12m) ~41%",
+  "outcome": "passed",
+  "duration": 0.0003,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_artifact_keys",
+  "doc": "Artifact has all keys needed by the API",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_artifact_version",
+  "doc": "Version string set",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_artifact_last_date",
+  "doc": "last_date = Sep 2025",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_artifact_rows",
+  "doc": "Trained on 249 rows",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_artifact_level_log",
+  "doc": "level_log ~ log(15750)",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_joblib_roundtrip",
+  "doc": "joblib file reloads to the same dict",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_json_artifact_valid",
+  "doc": "price_model.json is valid JSON identical to artifact",
+  "outcome": "passed",
+  "duration": 0.0004,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_default_horizon",
+  "doc": "predict() default -> 12 rows with required columns",
+  "outcome": "passed",
+  "duration": 0.0016,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_horizon[1]",
+  "doc": "predict(h) returns h rows",
+  "outcome": "passed",
+  "duration": 0.001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_horizon[3]",
+  "doc": "predict(h) returns h rows",
+  "outcome": "passed",
+  "duration": 0.0012,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_horizon[12]",
+  "doc": "predict(h) returns h rows",
+  "outcome": "passed",
+  "duration": 0.0011,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_horizon[24]",
+  "doc": "predict(h) returns h rows",
+  "outcome": "passed",
+  "duration": 0.0013,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_matches_notebook_forecast",
+  "doc": "predict() equals the notebook forecast table",
+  "outcome": "passed",
+  "duration": 0.0018,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_bands_match",
+  "doc": "predict() 80% band equals notebook band",
+  "outcome": "passed",
+  "duration": 0.0018,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_months_format",
+  "doc": "Month strings are YYYY-MM",
+  "outcome": "passed",
+  "duration": 0.0011,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestArtifact::test_predict_accepts_explicit_artifact",
+  "doc": "predict(art=...) uses supplied artifact",
+  "outcome": "passed",
+  "duration": 0.0008,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_psi_identical_zero",
+  "doc": "PSI of identical samples = 0",
+  "outcome": "passed",
+  "duration": 0.0009,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_psi_shift_large",
+  "doc": "PSI flags a 3-sigma mean shift as major (>0.25)",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_psi_small_shift_small",
+  "doc": "Same-distribution resample has PSI < 0.1",
+  "outcome": "passed",
+  "duration": 0.0013,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_psi_nonnegative",
+  "doc": "PSI >= 0",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_psi_on_data_flags_drift",
+  "doc": "PSI(last 24m vs history) > 0.25 -> drift flagged",
+  "outcome": "passed",
+  "duration": 0.0009,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_monitor_frame_columns",
+  "doc": "Monitoring frame has actual, ses, naive, ape, rolling MAPE, alert",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_monitor_length",
+  "doc": "Walk-forward produced N-1-120 = 128 monthly rows",
+  "outcome": "passed",
+  "duration": 0.0001,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_ape_nonnegative",
+  "doc": "Absolute percentage errors >= 0",
+  "outcome": "passed",
+  "duration": 0.0005,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_rolling_mape_warmup",
+  "doc": "Rolling MAPE NaN for first 11 months",
+  "outcome": "passed",
+  "duration": 0.0006,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_alert_boolean",
+  "doc": "Alert column boolean",
+  "outcome": "passed",
+  "duration": 0.0002,
+  "error": ""
+ },
+ {
+  "nodeid": "tests/test_unit.py::TestMonitoring::test_ses_monitor_equals_naive",
+  "doc": "1-step SES ~ naive (alpha=1) in walk-forward",
+  "outcome": "passed",
+  "duration": 0.001,
+  "error": ""
+ }
+]

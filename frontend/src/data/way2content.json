@@ -1,0 +1,318 @@
+{
+  "sites": [
+    {
+      "id": "way2agribusiness",
+      "name": "Way2Agribusiness",
+      "domain": "way2agribusiness.com",
+      "role": "Parent / group company",
+      "tagline": "Transforming agriculture into agribusiness",
+      "description": "Way2Agribusiness India Pvt. Ltd. (operating as Krishimitra) is a social enterprise founded in March 2014 in Bengaluru. It runs a 'Five for Five' ecosystem model covering inputs/machinery, market access, project execution, professional development, and AI-backed advisory, and operates the Way2Agritech and Way2Foods brands plus AI service platforms (Way2AgriIntel AI, Way2AgriPro, Way2Agribiz PMC).",
+      "pages": [
+        {
+          "title": "Home",
+          "url": "https://way2agribusiness.com/",
+          "description": "Group homepage describing Way2Agribusiness as an agribusiness ecosystem platform connecting agriculture, technology, and business, and linking to its sibling services.",
+          "highlights": [
+            "Umbrella brands: Way2AgriIntel AI, Way2Agritech, Karnataka Agribusiness, Way2Foods, Urban Agriculture",
+            "Headquartered in Bengaluru, India"
+          ]
+        },
+        {
+          "title": "About Us",
+          "url": "https://way2agribusiness.com/about-us/",
+          "description": "Way2Agribusiness India Pvt. Ltd. is a social enterprise established in March 2014 that facilitates agricultural transformation into agribusiness, acting as a one-stop solution for farmers and agri-entrepreneurs via integrated advisory, market access, and input services delivered online and at APMC yards.",
+          "highlights": [
+            "Founded March 2014",
+            "'Five for Five' ecosystem model: inputs/machinery, market access, project execution, professional development, AI-backed advisory",
+            "Operating brands: Way2Agritech and Way2Foods",
+            "Service platforms: Way2AgriIntel AI, Way2AgriPro, Way2Agribiz PMC",
+            "Stakeholders: farmers, farmer associations, agri start-ups, students, entrepreneurs, government departments, agritech manufacturers",
+            "Presence in APMC Yard network, Yeshwanthpura, Bengaluru",
+            "Start-up India registration, MSME status, FKCCI awards, Green Leaders designation",
+            "Founder & CEO: Dr. Prasanna Dyavegowda",
+            "Trademark registrations, Agricultural Department approval, APMC trade license, FSSAI certification, GST registration"
+          ]
+        },
+        {
+          "title": "Career Opportunities",
+          "url": "https://way2agribusiness.com/career-opportunities/",
+          "description": "Careers page listing internship and professional roles across agri-operations, agritech, AI software engineering, and digital marketing, with an emphasis on practical learning, mentorship, and conversion to permanent roles for top performers.",
+          "highlights": [
+            "Internships: 6-12 months with assured job conversion based on performance",
+            "Roles: Executive (2-3 yrs exp), Assistant Manager (4+ yrs exp), Expert Network consultants",
+            "Departments: Agri Clinic Operations, Agritech Operations, AI Software Engineering, Digital Marketing",
+            "Pay bands: Interns ₹10,000-₹12,000/mo, Executives ₹22,000-₹28,000/mo, Senior roles ₹28,000-₹45,000/mo",
+            "AI/ML and full-stack development training included",
+            "Contact: +91 9449004956, dr.prasannad@way2agribusiness.com"
+          ]
+        },
+        {
+          "title": "Knowledge Center",
+          "url": "https://way2agribusiness.com/agribusiness-knowledge-center/",
+          "description": "Educational resource hub with practical knowledge for better agricultural decisions, covering farming practices, technology, investment opportunities, and value-added agriculture for farmers, graduates, and professionals.",
+          "highlights": [
+            "25+ article categories across agribusiness fundamentals, technology, and sustainability",
+            "Covers horticulture, vegetable cultivation, greenhouse farming, dairy, beekeeping, goat farming",
+            "Business topics: FPOs, food processing, agri-tourism, market intelligence",
+            "Technology focus: AI/ML, precision farming, FieldIntel farm management",
+            "25+ Karnataka-specific investment opportunities",
+            "Links to Way2Agritech, Way2Foods, AgriFBI, and Urban Agriculture"
+          ]
+        },
+        {
+          "title": "Global Agritech",
+          "url": "https://way2agribusiness.com/global-agritech/",
+          "description": "Connects Indian agriculture with proven international agritech products and gives global suppliers a gateway into the Indian market through the Way2Agribusiness ecosystem.",
+          "highlights": [
+            "International sourcing from Israel, Japan, and other markets",
+            "Categories: seeds & plants, irrigation & fertigation, fertilizers, pesticides, farm machinery, agritech, agri services",
+            "Tagline: 'Global technology, adapted for Indian agriculture'",
+            "Active international supplier enquiry program"
+          ]
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://way2agribusiness.com/contact-us/",
+          "description": "Contact details for the group company.",
+          "highlights": [
+            "Phones: +91 94490 04956 (WhatsApp), +91 82770 78435, +91 80950 00388",
+            "Emails: way2agribusiness@gmail.com, dr.prasannad@way2agribusiness.com, way2agriintel@gmail.com, way2agritech@gmail.com",
+            "Address: Krishimitra, #636, BDA Block 2, APMC (RMC) Yard, Yeshwanthpura, Bengaluru - 560022"
+          ]
+        },
+        {
+          "title": "Online Services",
+          "url": "https://way2agribusiness.com/online-services/",
+          "description": "Directory page listing every digital platform operated by Way2Agribusiness, in English and Kannada.",
+          "highlights": [
+            "Way2Agribusiness, Way2Agritech, Way2AgriIntel, Way2Foods, FarmNeedz, Urban Agriculture, Karnataka Agribusiness"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "way2foods",
+      "name": "Way2Foods",
+      "domain": "way2foods.in",
+      "role": "Marketplace arm",
+      "tagline": "Creating markets for farmers' produce",
+      "description": "A digital trading platform founded by Way2Agribusiness that connects farmers, FPOs, and APMC traders with households, retailers, institutions, and food businesses through order-based trading, letting producers showcase products, pricing, and supply information to interested buyers.",
+      "pages": [
+        {
+          "title": "Home",
+          "url": "https://way2foods.in/",
+          "description": "Digital agricultural marketplace connecting farmers, FPOs, and APMC traders with buyers via order-based trading across staples, vegetables, and fruits.",
+          "highlights": [
+            "Order-based trading model",
+            "Buyer segments: households, retailers, institutions, food businesses"
+          ]
+        },
+        {
+          "title": "APMC Connect",
+          "url": "https://way2foods.in/apmc",
+          "description": "A transparent, technology-driven trade platform enabling APMC commission agents and traders to showcase and supply agricultural produce to wider buyer segments, preserving the traditional APMC market structure while adding digital discovery.",
+          "highlights": [
+            "Connects traders with retailers, institutions, processors, and bulk buyers",
+            "Feature-focused page; no published trader/commodity counts"
+          ]
+        },
+        {
+          "title": "FPO Connect",
+          "url": "https://way2foods.in/fpo",
+          "description": "A digital marketplace bridging rural Farmer Producer Organizations with bulk buyers, retailers, and institutions, enabling FPOs to build a digital presence and display aggregated produce offerings.",
+          "highlights": [
+            "Helps FPOs expand beyond traditional sales channels",
+            "Feature-focused page; no published FPO/farmer counts"
+          ]
+        },
+        {
+          "title": "About Us",
+          "url": "https://way2foods.in/about-us",
+          "description": "Way2Foods was established by Way2Agribusiness India Pvt. Ltd. in March 2014 as a social enterprise connecting farmers, FPOs, APMC traders, and food suppliers with consumers, retailers, institutions, and food businesses.",
+          "highlights": [
+            "Founded March 2014, HQ in Bengaluru (APMC Yard, Yeshwanthpura)",
+            "Four product categories: Way2Foods Special, Staple Foods, Vegetables, Fruits",
+            "Sister platforms: Way2Agritech, Way2AgriIntel"
+          ]
+        },
+        {
+          "title": "Way2Foods Special (Products)",
+          "url": "https://way2foods.in/way2foods-special",
+          "description": "Selected food and farm products sourced from farmers, FPOs, APMC traders, and trusted suppliers.",
+          "highlights": [
+            "Onion",
+            "Jaggery powder",
+            "Rice powder",
+            "Potato",
+            "Onion & Potato combo",
+            "Vegetable basket",
+            "Fresh Coffee Powder"
+          ]
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://way2foods.in/guidelines",
+          "description": "Categorized operating guidelines for the four platform user types.",
+          "highlights": [
+            "All Users guidelines",
+            "Buyer Guidelines (households, retailers, institutions)",
+            "FPO Guidelines",
+            "APMC Guidelines (traders & suppliers)"
+          ]
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://way2foods.in/contact-us",
+          "description": "Support contact for partnership, product, and logistics-related queries.",
+          "highlights": [
+            "Address: #636, BDA Block 2, APMC (RMC) Yard, Yeshwanthpura, Bengaluru - 560022",
+            "Phones: 9449004956 (WhatsApp), 8277078435, 8095000388",
+            "Emails: dr.prasannad@way2agribusiness.com, way2agribusiness@gmail.com, way2agritech@gmail.com"
+          ]
+        },
+        {
+          "title": "Help Center",
+          "url": "https://way2foods.in/help-center",
+          "description": "Central hub for customer support covering shopping inquiries, via email, phone, and in-person channels.",
+          "highlights": [
+            "Business hours: Mon-Sat, 9 AM-7 PM IST",
+            "Links to feedback form, shipping policy, terms & privacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "way2agriintel",
+      "name": "Way2AgriIntel AI",
+      "domain": "way2agriintel.com",
+      "role": "AI / intelligence arm",
+      "tagline": "AI and data-driven insights for farmers and agribusiness",
+      "description": "Way2AgriIntel AI delivers AI and data-driven insights to farmers and agribusiness participants through five patented, integrated modules covering crop selection, machinery, market/price forecasting, crop diagnosis, and nutrient management.",
+      "pages": [
+        {
+          "title": "Home",
+          "url": "https://way2agriintel.com/",
+          "description": "Platform overview combining advanced modules to help farmers decide on crop selection, equipment investment, market timing, plant health, and nutrient management.",
+          "highlights": [
+            "Modules: CropIntel, AgMachineX, AgriFBI, AgriClinic, NutriTracker, plus Soil Test and FieldIntel"
+          ]
+        },
+        {
+          "title": "CropIntel",
+          "url": "https://way2agriintel.com/cropintel",
+          "description": "AI/ML-driven crop selection tool, particularly for perennial plants, evaluating yield potential, weather suitability, market outlook, and challenges against land, soil, water, and market conditions.",
+          "highlights": [
+            "Supports single and multi-crop selection with suitable varieties",
+            "Sapling supply via partner nurseries",
+            "Promotes integrated, diversified farming"
+          ]
+        },
+        {
+          "title": "AgMachineX",
+          "url": "https://way2agriintel.com/agmachinex",
+          "description": "Farm machinery advisory that recommends equipment based on land size, crop choice, and budget, balancing cost-effectiveness with quality.",
+          "highlights": [
+            "Crops covered: Paddy, Maize, Tomato, Sugarcane, Coconut, Arecanut, Coffee, Banana and more",
+            "Equipment: power weeders, chaff cutters, sprayers, brush cutters, coconut climbers, dehuskers, earth augers, power tillers, water pumps, chainsaws",
+            "Offers budget-friendly alternatives when constraints exist"
+          ]
+        },
+        {
+          "title": "AgriFBI",
+          "url": "https://way2agriintel.com/agrifbi",
+          "description": "Market intelligence platform giving periodical price outlooks so farmers can decide what to grow, when to grow, and how to market produce for optimal price realization.",
+          "highlights": [
+            "Covers 9 commodities: Coffee, Arecanut, Pepper, Coconut, Copra, Maize, Tur, Onion, Tomato",
+            "'Market Planner' for customized strategies",
+            "Standardized 'Report' with price outlooks and critical factors",
+            "Demo request available"
+          ]
+        },
+        {
+          "title": "AgriClinic",
+          "url": "https://way2agriintel.com/agriclinic",
+          "description": "AI-powered crop nutrient management using ML models on soil composition, weather, and plant characteristics, plus image recognition to spot deficiencies and pesticide needs.",
+          "highlights": [
+            "13+ crops: Paddy, Maize, Tomato, Sugarcane, Coconut, Arecanut, Coffee, Banana, Papaya, Pomegranate, Cotton, Onion, Tur, Pepper",
+            "Image recognition for nutrient/fertilizer/pesticide deficiencies"
+          ]
+        },
+        {
+          "title": "NutriTracker",
+          "url": "https://way2agriintel.com/nutritracker",
+          "description": "Flagship nutrient management platform combining farmer profiles, application monitoring, and precision scheduling powered by the AgriClinic module.",
+          "highlights": [
+            "Farmer profile management",
+            "Nutrient application monitoring & sourcing assistance",
+            "Precision scheduling with rescheduling/notifications",
+            "Wide crop coverage"
+          ]
+        },
+        {
+          "title": "Patent",
+          "url": "https://way2agriintel.com/patent",
+          "description": "Way2AgriIntel AI holds a 20-year Government of India patent protecting its five interconnected models and their hybrid AI + statistical + rule-based decision logic.",
+          "highlights": [
+            "Patent number 574571",
+            "Valid from January 5, 2024 for 20 years",
+            "Granted November 26, 2025",
+            "Protects CropIntel, AgriFBI, AgMachineX, AgriClinic, NutriTracker"
+          ]
+        },
+        {
+          "title": "Soil Test",
+          "url": "https://way2agriintel.com/soil-test",
+          "description": "AI-driven soil health analysis converting lab results into actionable crop nutrition strategies, integrated with AgriClinic and NutriTracker.",
+          "highlights": [
+            "14 parameters tested: pH, EC, OC, NPK, sulfur, Zn, Fe, Cu, Mn, B and more",
+            "Testing days: 5th, 15th, 25th of each month",
+            "Cost: ₹1,000 per sample",
+            "Fertilizer cost savings: 10-30%",
+            "Yield increase potential: 15-40%",
+            "Sample size: 1/2 kg, 8-step sampling protocol",
+            "Access via WhatsApp, mobile app, portal",
+            "~15 nutrient product brand integrations"
+          ]
+        },
+        {
+          "title": "FieldIntel",
+          "url": "https://way2agriintel.com/field-intel",
+          "description": "Farm management solution helping commercial farms transition to agribusiness through expert guidance, crop management support, product supply, and technology integration.",
+          "highlights": [
+            "Service radius: 250 km from Bengaluru",
+            "8-step process: field visit, MoU, decision-enabling system, off-farm strategies, on-farm support, product supply, tele support, retainer services",
+            "Integrates other Way2AgriIntel AI modules"
+          ]
+        },
+        {
+          "title": "About Us",
+          "url": "https://way2agriintel.com/about-us",
+          "description": "Way2Agribusiness India Pvt. Ltd., founded March 2014, provides integrated AI/ML platforms for crop selection, machinery adoption, market intelligence, and nutrient management across India.",
+          "highlights": [
+            "Two registered brands: Way2Agritech, Way2Foods",
+            "Five integrated AI/ML modules",
+            "14+ online services",
+            "Three service divisions: Way2AgriIntel AI, Way2AgriPro, Way2Agribiz PMC",
+            "'Five for Five' stakeholder model"
+          ]
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://way2agriintel.com/contact-us",
+          "description": "Contact point for inquiries on AI-enabled agricultural solutions, collaborations, and advisory support.",
+          "highlights": [
+            "Phones: (+91) 9449004956, 8277078435, 8095000388",
+            "Emails: dr.prasannad@way2agribusiness.com, way2agribusiness@gmail.com, way2agriintelai@gmail.com",
+            "Address: #636, BDA Block 2, APMC (RMC) Yard, Yeshwanthpura, Bengaluru - 560022"
+          ]
+        }
+      ]
+    }
+  ],
+  "siblingServices": [
+    { "name": "Way2Agritech", "domain": "way2agritech.com" },
+    { "name": "FarmNeedz", "domain": "farmneedz.com" },
+    { "name": "Urban Agriculture", "domain": "urbanagriculture.in" },
+    { "name": "Karnataka Agribusiness", "domain": "karnatakaagribusiness.com" }
+  ]
+}
